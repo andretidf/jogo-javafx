@@ -103,7 +103,7 @@ public class AnimalDAO {
 		BufferedWriter br = new BufferedWriter(new FileWriter("in.txt"));
 
 		String linha = "CACHORRO,E O MELHOR AMIGO DO HOMEM,TERRESTRE";
-		String linha1 = "TUBARAO,VIVE NO ACEANO,AQUATICO";
+		String linha1 = "TUBARAO,VIVE NO OCEANO,AQUATICO";
 		br.write(linha);
 		br.newLine();
 		br.write(linha1);
