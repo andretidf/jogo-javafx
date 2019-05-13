@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="200.0" maxWidth="350.0" minHeight="200.0" minWidth="350.0" prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Button fx:id="btYes" defaultButton="true" layoutX="29.0" layoutY="99.0" mnemonicParsing="false" onAction="#onBtYesAction" prefHeight="40.0" prefWidth="120.0" text="OK" />
+      <Button fx:id="btCancel" cancelButton="true" layoutX="197.0" layoutY="99.0" mnemonicParsing="false" onAction="#fecharTelaAction" prefHeight="40.0" prefWidth="120.0" text="RESET/SAIR" />
+      <Text fx:id="lbTexto" layoutX="16.0" layoutY="62.0" onDragDetected="#onBtYesAction" strokeType="OUTSIDE" strokeWidth="0.0" text="PENSE EM UM ANIMAL" textAlignment="CENTER" wrappingWidth="318.6826171875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
